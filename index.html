@@ -5,38 +5,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./skills.css">
+    <link rel="stylesheet" href="./experience.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
     <title>Oktay Çopurlu</title>
 </head>
 
 <body>
+    <div class="container">
     <header>
-        <nav>
-            <li><a href="">About</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Hobies</a></li>
-        </nav>
-        <picture>
-            <img src="https://www.sixt.com.tr/media-manager/images/shares/city/izmir/izmir-merkez.jpg" alt="">
-        </picture>
-        <picture>
-            <img src="./picture.jpeg" alt="">
-        </picture>
-        <section>
-            <h1>Oktay Çopurlu</h1>
-            <h4>Full-Stack Web Developer</h4>
-            <section>Student at Powercoders</section>
-            <address><a
-                    href="https://www.google.com/maps/place/Unter%C3%A4geri/@47.1171881,8.5466307,13z/data=!3m1!4b1!4m5!3m4!1s0x4785534f9cebeed3:0x208a503bb6b8a1c2!8m2!3d47.1368093!4d8.5830915"
-                    target="_blank">Zug, Switzerland</a> </address>
-            <section id="social-media"><a href="https://github.com/OktayCopurlu">Github</a> | <a
-                    href="https://www.linkedin.com/in/oktay-%C3%A7opurlu-79a61621a/">Linkedin</a>
-            </section>
+        <section id="profile">
+            <div id="main_profile">
+                <figure id="profile_photo">
+                    <img src="./picture.jpeg" alt="">
+                </figure>
+
+                <div id="profile_info">
+                    <div id="profile_title">
+                        <p>Hi, I am <strong>Oktay Çopurlu</strong></p>
+                        <p>A Full-Stack Web Developer</p>
+                    </div>
+                    <div id="profile_address">
+                        <address>
+                            <h4> <a href="https://www.google.com/maps/place/Unter%C3%A4geri/@47.1171881,8.5466307,13z/data=!3m1!4b1!4m5!3m4!1s0x4785534f9cebeed3:0x208a503bb6b8a1c2!8m2!3d47.1368093!4d8.5830915"
+                                    target="_blank">Zug, Switzerland</a></h4>
+                            <h4>+41 78 220 72 71</h4>
+                        </address>
+
+                    </div>
+                    <div id="social-media">
+                        <h4><a href="https://github.com/OktayCopurlu">Github</a>
+                            <a href="https://www.linkedin.com/in/oktay-%C3%A7opurlu-79a61621a/">Linkedin</a></h5>
+                    </div>
+                </div>
+            </div>
         </section>
+        <nav class="topnav" id="myTopnav">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#hobies">Hobies</a>
+
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
     </header>
     <main>
-        <section>waiting...</section>
-        <div>something changed...</div>
+        <section id="about">
+            <div>
+                <h1>About Me</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod similique impedit distinctio ea! Ut
+                    unde
+                    sed molestias cupiditate illo, quos tempore earum repellat deleniti, doloribus suscipit quibusdam
+                    quo
+                    sunt nobis!
+                    Eos suscipit quisquam voluptate nisi ipsam animi numquam et necessitatibus nemo deserunt iusto
+                    excepturi, quia cum sunt facere, veniam officiis perspiciatis quae incidunt ipsum maxime accusamus
+                    voluptatem? Laudantium, ipsum veniam!</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div id="skills_title">
+                <h1>My Skills</h1>
+            </div>
+            <div id="skills_icons">
+                <h2><i class="devicon-html5-plain-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-css3-plain-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-nodejs-plain colored"></i>
+                </h2>
+                <h2><i class="devicon-bootstrap-plain-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-nodejs-plain-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-npm-original-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-mysql-plain-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-mongodb-plain-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-firebase-plain-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-git-plain-wordmark colored"></i>
+                </h2>
+                <h2><i class="devicon-github-original-wordmark colored"></i></h2>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div>
+                <h1>Experience</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod similique impedit distinctio ea! Ut
+                    unde
+                    sed molestias cupiditate illo, quos tempore earum repellat deleniti, doloribus suscipit quibusdam
+                    quo
+                    sunt nobis!
+                    Eos suscipit quisquam voluptate nisi ipsam animi numquam et necessitatibus nemo deserunt iusto
+                    excepturi, quia cum sunt facere, veniam officiis perspiciatis quae incidunt ipsum maxime accusamus
+                    voluptatem? Laudantium, ipsum veniam!</p>
+            </div>
+        </section>
     </main>
+</div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,59 @@
+#skills_icons {
+  display: flex;
+  justify-content: center;
+}
+
+#skills_icons i {
+  font-size: 5rem;
+}
+#skills_icons h2 {
+  margin: 1rem;
+}
+#skills_title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#skills_icons h2:hover {
+  opacity: 0.8;
+  text-shadow: 1px 1px black;
+}
+
+@media screen and (max-width: 1280px) {
+  #skills_icons i {
+    font-size: 4rem;
+  }
+  #skills_icons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #skills_icons i {
+    font-size: 3rem;
+  }
+  #skills_icons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #skills_icons i {
+    font-size: 4rem;
+  }
+  #skills_icons {
+    display: grid;
+    grid-template-columns: repeat(6, 6rem);
+  }
+}
+@media screen and (max-width: 414px) {
+  #skills_icons i {
+    font-size: 3rem;
+  }
+  #skills_icons {
+    display: grid;
+    grid-template-columns: repeat(6, 4rem);
+  }
+}
