@@ -1,0 +1,51 @@
+#education {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#education > div {
+  text-align: center;
+  margin: 3rem;
+  width: 80%;
+}
+#education > div div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 2rem 0;
+  border-radius: 7px;
+  padding: 2rem 0;
+}
+#education > div div img {
+  max-height: 10rem;
+}
+#education > div div * {
+  flex: 1 0 25rem;
+}
+#education p {
+  margin: 2rem;
+}
+
+ @media screen and (max-width:600px) {
+  #education p {
+    text-align: justify;
+  }
+  #education div {
+    width: 100%;
+    margin: 0;
+
+  }
+  #education > div div {
+    border-radius: 0;
+  }
+
+} 
+@media screen and (max-width:500px) {
+
+  #education > div div * {
+    flex: 1 0 15rem;
+  }
+} 

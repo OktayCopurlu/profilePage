@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./web6.jpg);
+  background-image: url(../pictures/web6.jpg);
   height: 30rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,5 +82,4 @@ address a {
     margin-left: 1rem;
     margin-top: 1rem;
   }
-  
 }
