@@ -1,6 +1,7 @@
 #skills_icons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #skills_icons i {
@@ -43,17 +44,17 @@
   #skills_icons i {
     font-size: 4rem;
   }
-  #skills_icons {
+  /* #skills_icons {
     display: grid;
     grid-template-columns: repeat(6, 6rem);
-  }
+  } */
 }
 @media screen and (max-width: 414px) {
   #skills_icons i {
     font-size: 3rem;
   }
-  #skills_icons {
+  /* #skills_icons {
     display: grid;
     grid-template-columns: repeat(6, 4rem);
-  }
+  } */
 }
