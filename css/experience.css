@@ -16,18 +16,25 @@
   margin: 2rem 0;
   border-radius: 7px;
   padding: 2rem 0;
+  padding-right: 2rem;
   width: 100%;
 }
 #experience > div div * {
   flex: 1 0 25rem;
 }
+#experience > div div a {
+  flex: 1 0 10rem;
+}
 #experience div {
   width: 80%;
   text-align: center;
   margin: 3rem;
+ 
 }
 #experience p {
   margin: 2rem;
+  text-align: start;
+
 }
 @media screen and (max-width: 600px) {
   #experience p {

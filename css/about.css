@@ -3,40 +3,39 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-#about-text{
+#about-text {
   max-width: 40rem;
 }
 #about img {
-  margin:2rem ;
+  margin: 2rem;
   max-height: 28rem;
 }
 #about p {
-  margin:2rem 0;
-  text-align:start;
+  margin: 2rem 0;
+  text-align: start;
 }
 #about h1 {
-  margin:2rem 0;
-  text-align:center;
+  margin: 2rem 0;
+  text-align: center;
 }
-th:first-child{
+th:first-child {
   text-align: start;
   width: 6rem;
 }
-td{
-  padding:0.8rem
+td {
+  padding: 0.8rem;
 }
 
 @media screen and (max-width: 600px) {
   #about p {
-   font-size:14px;
-   text-align:justify;
-  
+    font-size: 14px;
+    text-align: justify;
   }
-  #about-text{
+  #about-text {
     margin: 0 1rem;
   }
   #about img {
-    margin:0 ;
+    margin: 0;
     width: 100%;
   }
 }
