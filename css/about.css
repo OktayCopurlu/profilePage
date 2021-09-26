@@ -8,7 +8,7 @@
 }
 #about img {
   margin: 2rem;
-  max-height: 28rem;
+  max-height: 34rem;
 }
 #about p {
   margin: 2rem 0;
@@ -25,7 +25,33 @@ th:first-child {
 td {
   padding: 0.8rem;
 }
+table{
+  margin-bottom: 2rem;
+}
+#personal-info > a{
+  border: 1px solid #3866AF;
+  border-radius:5px;
+  padding:1rem 5rem;
+  background-color:#3866AF;
+  color: white;
+  font-size:large;
+}
 
+#personal-info > a:hover{
+  opacity: 0.8;
+}
+
+#personal-info{
+  margin-bottom:2rem;
+}
+
+table span a{
+  font-size:larger;
+}
+
+table span a:hover{
+  color:red;
+}
 @media screen and (max-width: 600px) {
   #about p {
     font-size: 14px;
