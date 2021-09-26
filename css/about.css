@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color:whitesmoke;
+
 }
 #about-text {
   max-width: 40rem;
@@ -28,25 +30,30 @@ td {
 table{
   margin-bottom: 2rem;
 }
-#personal-info > a{
+#personal-info > ul a:first-child{
   border: 1px solid #3866AF;
   border-radius:5px;
-  padding:1rem 5rem;
+  padding:1rem 3rem;
   background-color:#3866AF;
   color: white;
   font-size:large;
 }
 
-#personal-info > a:hover{
+#personal-info >ul a:hover{
   opacity: 0.8;
 }
 
 #personal-info{
   margin-bottom:2rem;
 }
-
-table span a{
-  font-size:larger;
+#personal-info > ul{
+  display: flex;
+  align-items: center;
+  
+}
+#personal-info > ul a {
+  font-size:4rem;
+margin-right: 2rem;
 }
 
 table span a:hover{
