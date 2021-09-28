@@ -49,7 +49,6 @@ table{
 #personal-info > ul{
   display: flex;
   align-items: center;
-  
 }
 #personal-info > ul a {
   font-size:4rem;
@@ -70,5 +69,16 @@ table span a:hover{
   #about img {
     margin: 0;
     width: 100%;
+  }
+  #personal-info > ul a{
+    font-size:3rem;
+    margin-right: 2rem;
+  }
+  #personal-info > ul a:first-child{
+    padding:0.8rem 2.3rem;
+    font-size:medium;
+  }
+  #personal-info > ul{
+   padding-left: 1rem;
   }
 }
