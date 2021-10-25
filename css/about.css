@@ -1,9 +1,11 @@
+html{
+  scroll-behavior: smooth;
+}
 #about {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color:whitesmoke;
-
+  background-color: whitesmoke;
 }
 #about-text {
   max-width: 40rem;
@@ -27,36 +29,36 @@ th:first-child {
 td {
   padding: 0.8rem;
 }
-table{
+table {
   margin-bottom: 2rem;
 }
-#personal-info > ul a:first-child{
-  border: 1px solid #3866AF;
-  border-radius:5px;
-  padding:1rem 3rem;
-  background-color:#3866AF;
+#personal-info > ul a:first-child {
+  border: 1px solid #3866af;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  background-color: #3866af;
   color: white;
-  font-size:large;
+  font-size: large;
 }
 
-#personal-info >ul a:hover{
+#personal-info > ul a:hover {
   opacity: 0.8;
 }
 
-#personal-info{
-  margin-bottom:2rem;
+#personal-info {
+  margin-bottom: 2rem;
 }
-#personal-info > ul{
+#personal-info > ul {
   display: flex;
   align-items: center;
 }
 #personal-info > ul a {
-  font-size:4rem;
-margin-right: 2rem;
+  font-size: 4rem;
+  margin-right: 2rem;
 }
 
-table span a:hover{
-  color:red;
+table span a:hover {
+  color: red;
 }
 @media screen and (max-width: 600px) {
   #about p {
@@ -70,15 +72,15 @@ table span a:hover{
     margin: 0;
     width: 100%;
   }
-  #personal-info > ul a{
-    font-size:3rem;
+  #personal-info > ul a {
+    font-size: 3rem;
     margin-right: 2rem;
   }
-  #personal-info > ul a:first-child{
-    padding:0.8rem 2.3rem;
-    font-size:medium;
+  #personal-info > ul a:first-child {
+    padding: 0.8rem 2.3rem;
+    font-size: medium;
   }
-  #personal-info > ul{
-   padding-left: 1rem;
+  #personal-info > ul {
+    padding-left: 1rem;
   }
 }
